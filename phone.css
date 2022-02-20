@@ -1,0 +1,100 @@
+
+/*styling the navigation bar:*/
+
+#navbar{
+    flex-direction:column;
+
+}
+
+#navbar ul li a{
+    font-size:1rem;
+    padding:0px 5px;
+ 
+}
+
+/*styling the home section of the page:*/
+
+#home{
+   
+    height:1000px;
+   padding: 60px;
+
+
+    
+
+}
+
+#home::before{
+    height: 835px;
+}
+#home p{
+    font-size:13px;
+    color:purple;
+
+
+}
+
+
+/*styling the services section*/
+
+
+#services{
+    flex-direction:column;
+
+
+
+}
+#services .box img {
+    height: 105px;
+    margin: auto;
+    display: block;
+}
+    
+    
+
+
+ 
+
+
+/*styling the client section:*/
+
+#clients{
+    overflow:hidden;
+
+
+}
+   
+
+
+
+#clients img{
+    
+   
+    width:55px;
+    padding: 0 5px;
+    height:auto;
+
+
+   
+}
+
+/*styling the utilities:*/
+
+.h-primary{
+    font-size:26px;
+
+}
+
+.btn{
+    font-size:13px;
+    padding: 4px 8px;
+
+}
+
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.5rem;
+}
